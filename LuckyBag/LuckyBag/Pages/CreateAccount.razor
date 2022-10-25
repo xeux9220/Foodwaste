@@ -1,0 +1,46 @@
+﻿@page "/createaccount"
+<PageTitle>Create Account</PageTitle>
+
+
+
+<!--Hvordan får vi alle informationer: Business ≠ Customer -->
+<!--Customer = Fornavn, efternavn, mail, nummer, adresse, password -->
+<!--Business = Firma navn, mail, nummer, adresse, password -->
+<link href="css/SignUp.css" rel="stylesheet" />
+
+    <img src="img/logo-placeholder.jpg" alt="Logo placeholder" /><br>
+    <center>
+    <hr>
+    <!-- <p>Please fill in this form to create an account.</p> -->
+    <div class="sign-up-form">
+    <form>
+      <label for="customer">Customer</label>
+      <input type="radio" id="customer" name="customer_type" value="Customer">
+      
+      <label for="customer">Business</label>
+      <input type="radio" id="business" name="customer_type" value="Business"><br>
+
+      <hr>
+      <label for="email"><b>Email</b></label><br>
+      <input type="text" placeholder="Enter Email" name="email" required><br><br>   
+  
+      <label for="psw"><b>Password</b></label><br>
+      <input type="password" placeholder="Enter Password" name="psw" required><br><br>
+
+      <label for="psw-repeat"><b>Repeat Password</b></label><br>
+      <input type="password" placeholder="Repeat Password" name="psw-repeat" required><br><br>
+      </form>
+
+    <div>
+        <button type="submit">Sign Up</button>
+    </div>
+        </div>
+    </center>
+
+<!--Skal kunne gemme inputtet -->
+<!--Tjekke om felterne bliver udfyldt? I hvert fald for det som ikke må være NULL -->
+
+
+@code {
+
+}

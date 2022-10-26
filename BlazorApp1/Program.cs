@@ -28,4 +28,5 @@ app.UseRouting();
 app.MapBlazorHub();
 app.MapFallbackToPage("/_Host");
 //her skriver jeg bare en kommentar
+//igen en kommentar
 app.Run();

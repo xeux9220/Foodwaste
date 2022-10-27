@@ -29,4 +29,5 @@ app.MapBlazorHub();
 app.MapFallbackToPage("/_Host");
 //her skriver jeg bare en kommentar
 //igen en kommentar
+//Igendskjofhbpsdiugdu8yifhgssdf
 app.Run();

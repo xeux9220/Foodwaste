@@ -1,4 +1,5 @@
 ﻿@page "/createaccount"
+@layout NoMenuLayout
 <PageTitle>Create Account</PageTitle>
 
 
@@ -6,12 +7,13 @@
 <!--Hvordan får vi alle informationer: Business ≠ Customer -->
 <!--Customer = Fornavn, efternavn, mail, nummer, adresse, password -->
 <!--Business = Firma navn, mail, nummer, adresse, password -->
-<link href="css/SignUp.css" rel="stylesheet" />
-
-    <img src="img/logo-placeholder.jpg" alt="Logo placeholder" /><br>
-    <center>
+<!--Tilbageknap -->
+<a href="#" class="previous">&#8249;</a>
+<center>
+    <img class="logoCenter" src="img/logo-placeholder.jpg" /><br>
     <hr>
     <!-- <p>Please fill in this form to create an account.</p> -->
+
     <div class="sign-up-form">
     <form>
       <label for="customer">Customer</label>
@@ -32,7 +34,7 @@
       </form>
 
     <div>
-        <button type="submit">Sign Up</button>
+            <button class="sign-button" type="submit">Sign Up</button>
     </div>
         </div>
     </center>

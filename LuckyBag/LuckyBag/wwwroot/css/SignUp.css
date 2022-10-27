@@ -9,9 +9,11 @@
 .sign-up-form {
     width: 400px;
     box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
-    background-color: #fff;
+    background-color: #A3B68A;
     padding: 20px;
     margin: auto;
+    border-radius: 8px;
+    box-shadow: 4px 4px grey;
 }
 
 input[type="radio"] {

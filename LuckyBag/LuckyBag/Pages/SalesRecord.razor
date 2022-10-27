@@ -1,39 +1,33 @@
 ﻿@page "/sale"
-<PageTitle>Create Account</PageTitle>
+<PageTitle>Sales record</PageTitle>
 
 <!--Ordre detaljer, datatid, bestilt til -->
-<style>
+<!--Tilbageknap -->
 
-    table {
-        background-color: white;
-        width: 100%;
-    }
-
-    th, td {
-        border: 1px solid;
-        padding: 15px;
-    }
-</style>
-
-<h1>Sales Record</h1>
+<!-- <a href="#" class="previous">&#8249;</a> -->
+	<img class="logoRight" src="img/logo-placeholder.jpg">
 <br>
-    <table>
-        <thead>
+    <table class="tableform">
             <tr>
-                <th><b>Customer</b></th>
-                <th><b>Date</b></th>
-                <th><b>Details</b></th>
+                <td><b>Customer</b></td>
+                <td><b>Date</b></td>
+                <td><b>Details</b></td>
             </tr>
-        </thead>
-        <tbody>
+
+            <!--Placeholder for fyld i table, skal bare slettet-->
             <tr>
-                <td>Test</td>
-                <td>Test</td>
-                <td>Test</td>
+                <td>Tekst</td>
+                <td>Tekst</td>
+                <td>Tekst</td>
             </tr>
+            <tr>
+                <td>Tekst</td>
+                <td>Tekst</td>
+                <td>Tekst</td>
+            </tr>
+
             <!--Kode til at generere et table fra database for den virksomhed der er logget ind -->
             <!--Øvrigt bruge inspriation fra FetchData.razor til at starte med -->
-        </tbody>
     </table>
 @code {
 

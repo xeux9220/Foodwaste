@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Yq6foumdPqd81KXZBppftwnB4/rjEArTwUMUKVODkdA=",
+  "Hash": "xF7rL2OIn85M3RoYbOnTv6rQikqGQRu06QcX5ZhUIno=",
   "Source": "LuckyBag",
   "BasePath": "_content/LuckyBag",
   "Mode": "Default",
@@ -289,6 +289,23 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+      "Identity": "C:\\Users\\freja\\OneDrive\\Skrivebord\\Foodwaste\\LuckyBag\\LuckyBag\\wwwroot\\img\\2961062-200.png",
+      "SourceId": "LuckyBag",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\freja\\OneDrive\\Skrivebord\\Foodwaste\\LuckyBag\\LuckyBag\\wwwroot\\",
+      "BasePath": "_content/LuckyBag",
+      "RelativePath": "img/2961062-200.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\2961062-200.png"
+    },
+    {
       "Identity": "C:\\Users\\freja\\OneDrive\\Skrivebord\\Foodwaste\\LuckyBag\\LuckyBag\\wwwroot\\img\\logo-placeholder.jpg",
       "SourceId": "LuckyBag",
       "SourceType": "Discovered",
@@ -304,6 +321,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\logo-placeholder.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\freja\\OneDrive\\Skrivebord\\Foodwaste\\LuckyBag\\LuckyBag\\wwwroot\\img\\placeholder-img.png",
+      "SourceId": "LuckyBag",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\freja\\OneDrive\\Skrivebord\\Foodwaste\\LuckyBag\\LuckyBag\\wwwroot\\",
+      "BasePath": "_content/LuckyBag",
+      "RelativePath": "img/placeholder-img.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\placeholder-img.png"
     }
   ]
 }

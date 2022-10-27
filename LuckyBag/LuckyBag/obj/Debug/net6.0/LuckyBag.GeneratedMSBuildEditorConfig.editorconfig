@@ -39,6 +39,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2FsZXNSZWNvcmQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/freja/OneDrive/Skrivebord/Foodwaste/LuckyBag/LuckyBag/Pages/Specification.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3BlY2lmaWNhdGlvbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/freja/OneDrive/Skrivebord/Foodwaste/LuckyBag/LuckyBag/Shared/NoMenuLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5vTWVudUxheW91dC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/freja/OneDrive/Skrivebord/Foodwaste/LuckyBag/LuckyBag/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 

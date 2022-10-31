@@ -1,3 +1,198 @@
+/* _content/BlazorApp1/Pages/Login.razor.rz.scp.css */
+html[b-yhn00id1ct], body[b-yhn00id1ct] {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: #FFF2E2;
+}
+.main-login[b-yhn00id1ct] {
+    height: 30rem;
+    width: 50rem;
+    display: flex;
+    margin: auto;
+    margin-top: 3rem;
+    flex-direction: column;
+}
+
+.divLoginBox[b-yhn00id1ct] {
+    display: flex;
+    flex-direction: row;
+}
+
+.loginBox[b-yhn00id1ct] {
+    background-color: #A3B68A;
+    height: 30rem;
+    width: auto;
+    margin: auto;
+    flex: 1;
+    margin-right: 3rem;
+    margin-left: 3rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    box-shadow: 4px 4px gray;
+}
+
+.signup[b-yhn00id1ct] {
+    margin: auto;
+    padding-top: 1rem;
+}
+
+.login-ref-button[b-yhn00id1ct] {
+    background-color: #CAD8F3;
+    border-radius: 8px;
+    width: 50%;
+    margin: auto;
+}
+
+.login-ref-text[b-yhn00id1ct] {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.loginButton[b-yhn00id1ct] {
+    border-radius: 8px;
+    background-color: #CAD8F3;
+    border: none;
+    color: black;
+    text-align: center;
+    font-size: 16px;
+    height: 2.8rem;
+    width: 10rem;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: auto;
+    box-shadow: 4px 4px gray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+    .loginButton span[b-yhn00id1ct] {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+    }
+
+        .loginButton span[b-yhn00id1ct]:after {
+            content: '\00bb';
+            position: absolute;
+            opacity: 0;
+            top: 0;
+            right: -20px;
+            transition: 0.5s;
+        }
+
+    .loginButton:hover span[b-yhn00id1ct] {
+        padding-right: 25px;
+    }
+
+        .loginButton:hover span[b-yhn00id1ct]:after {
+            opacity: 1;
+            right: 0;
+        }
+/* _content/BlazorApp1/Pages/Payment.razor.rz.scp.css */
+.body[b-3i5e358ze9] {
+    font-family: 'poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+
+
+
+
+.container[b-3i5e358ze9] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    min-height: 100vh;
+    padding-bottom: 70px;
+}
+
+
+    .container form[b-3i5e358ze9] {
+        padding: 20px;
+        width: 700px;
+        background: #9EBC9E;
+        box-shadow: 0 5px 10px;
+        border-radius: 10px;
+    }
+
+        .container form .row .col[b-3i5e358ze9] {
+            flex: 1 1 250px;
+        }
+
+
+            .container form .row .col .title[b-3i5e358ze9] {
+                font-size: 20px;
+                color: #333;
+                padding-bottom: 5px;
+                text-transform: uppercase;
+            }
+
+
+
+            .container form .row .col .inputbox span[b-3i5e358ze9] {
+                margin-bottom: 10px;
+                display: block;
+                margin-top: 7%;
+            }
+
+            .container form .row .col .inputbox input[b-3i5e358ze9] {
+                width: 100%;
+                border: 1px solid #FFFFFF;
+                padding: 10px 15px;
+                text-transform: none;
+                border-radius: 10px;
+            }
+
+                .container form .row .col .inputbox input:focus[b-3i5e358ze9] {
+                    border: 1px solid #000000;
+                }
+
+            .container form .row .col .flex[b-3i5e358ze9] {
+                display: flex;
+                gap: 15px;
+                border-radius: 10px;
+            }
+
+                .container form .row .col .flex .inputbox[b-3i5e358ze9] {
+                    margin-top: 5px;
+                }
+
+            .container form .row .col .inputbox img[b-3i5e358ze9] {
+                height: 34px;
+                margin-top: 5px;
+                filter: drop-shadow(0 0 1px #000)
+            }
+
+        .container form .submit-btn[b-3i5e358ze9] {
+            width: 100%;
+            padding: 12px;
+            font-size: 17px;
+            background-color: #2E5073;
+            color: #FFFFFF;
+            margin-top: 10px;
+            cursor: pointer;
+            border-radius: 20px;
+            border: none;
+        }
+
+            .container form .submit-btn:hover[b-3i5e358ze9] {
+                background-color: #456e99;
+            }
 /* _content/BlazorApp1/Shared/MainLayout.razor.rz.scp.css */
 .page[b-45rkf8v3vv] {
     position: relative;

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\asbjr\\Desktop\\Customer_Browsing\\BlazorApp1\\BlazorApp1.csproj": {}
+    "C:\\Users\\coolk\\Source\\Repos\\Foodwaste\\BlazorApp1\\BlazorApp1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\asbjr\\Desktop\\Customer_Browsing\\BlazorApp1\\BlazorApp1.csproj": {
+    "C:\\Users\\coolk\\Source\\Repos\\Foodwaste\\BlazorApp1\\BlazorApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\asbjr\\Desktop\\Customer_Browsing\\BlazorApp1\\BlazorApp1.csproj",
+        "projectUniqueName": "C:\\Users\\coolk\\Source\\Repos\\Foodwaste\\BlazorApp1\\BlazorApp1.csproj",
         "projectName": "BlazorApp1",
-        "projectPath": "C:\\Users\\asbjr\\Desktop\\Customer_Browsing\\BlazorApp1\\BlazorApp1.csproj",
-        "packagesPath": "C:\\Users\\asbjr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\asbjr\\Desktop\\Customer_Browsing\\BlazorApp1\\obj\\",
+        "projectPath": "C:\\Users\\coolk\\Source\\Repos\\Foodwaste\\BlazorApp1\\BlazorApp1.csproj",
+        "packagesPath": "C:\\Users\\coolk\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\coolk\\Source\\Repos\\Foodwaste\\BlazorApp1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\asbjr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\coolk\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

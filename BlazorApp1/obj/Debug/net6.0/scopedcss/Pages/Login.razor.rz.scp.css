@@ -1,0 +1,98 @@
+html[b-yhn00id1ct], body[b-yhn00id1ct] {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: #FFF2E2;
+}
+.main-login[b-yhn00id1ct] {
+    height: 30rem;
+    width: 50rem;
+    display: flex;
+    margin: auto;
+    margin-top: 3rem;
+    flex-direction: column;
+}
+
+.divLoginBox[b-yhn00id1ct] {
+    display: flex;
+    flex-direction: row;
+}
+
+.loginBox[b-yhn00id1ct] {
+    background-color: #A3B68A;
+    height: 30rem;
+    width: auto;
+    margin: auto;
+    flex: 1;
+    margin-right: 3rem;
+    margin-left: 3rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    box-shadow: 4px 4px gray;
+}
+
+.signup[b-yhn00id1ct] {
+    margin: auto;
+    padding-top: 1rem;
+}
+
+.login-ref-button[b-yhn00id1ct] {
+    background-color: #CAD8F3;
+    border-radius: 8px;
+    width: 50%;
+    margin: auto;
+}
+
+.login-ref-text[b-yhn00id1ct] {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.loginButton[b-yhn00id1ct] {
+    border-radius: 8px;
+    background-color: #CAD8F3;
+    border: none;
+    color: black;
+    text-align: center;
+    font-size: 16px;
+    height: 2.8rem;
+    width: 10rem;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: auto;
+    box-shadow: 4px 4px gray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+    .loginButton span[b-yhn00id1ct] {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+    }
+
+        .loginButton span[b-yhn00id1ct]:after {
+            content: '\00bb';
+            position: absolute;
+            opacity: 0;
+            top: 0;
+            right: -20px;
+            transition: 0.5s;
+        }
+
+    .loginButton:hover span[b-yhn00id1ct] {
+        padding-right: 25px;
+    }
+
+        .loginButton:hover span[b-yhn00id1ct]:after {
+            opacity: 1;
+            right: 0;
+        }

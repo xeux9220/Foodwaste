@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "xF7rL2OIn85M3RoYbOnTv6rQikqGQRu06QcX5ZhUIno=",
+  "Hash": "uZeIXoMMaMUMIbEmBr9pF0IHTpeotmOF342SRTx0Hag=",
   "Source": "LuckyBag",
   "BasePath": "_content/LuckyBag",
   "Mode": "Default",
@@ -236,23 +236,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\README.md"
-    },
-    {
-      "Identity": "C:\\Users\\freja\\OneDrive\\Skrivebord\\Foodwaste\\LuckyBag\\LuckyBag\\wwwroot\\css\\SignUp.css",
-      "SourceId": "LuckyBag",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\freja\\OneDrive\\Skrivebord\\Foodwaste\\LuckyBag\\LuckyBag\\wwwroot\\",
-      "BasePath": "_content/LuckyBag",
-      "RelativePath": "css/SignUp.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\SignUp.css"
     },
     {
       "Identity": "C:\\Users\\freja\\OneDrive\\Skrivebord\\Foodwaste\\LuckyBag\\LuckyBag\\wwwroot\\css\\site.css",

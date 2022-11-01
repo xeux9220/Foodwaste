@@ -4,25 +4,30 @@
 
 
 
-<!--Hvordan får vi alle informationer: Business ≠ Customer -->
-<!--Customer = Fornavn, efternavn, mail, nummer, adresse, password -->
-<!--Business = Firma navn, mail, nummer, adresse, password -->
-<!--Tilbageknap -->
-<a href="#" class="previous">&#8249;</a>
+<!--Business ≠ Customer -->
+<a href="#" class="previous">&#8249;</a> <!--Tilbageknap, som bare fører tilbage til starten for nu-->
 <center>
     <img class="logoCenter" src="img/logo-placeholder.jpg" /><br>
     <hr>
-    <!-- <p>Please fill in this form to create an account.</p> -->
 
     <div class="sign-up-form">
     <form>
       <label for="customer">Customer</label>
-      <input type="radio" id="customer" name="customer_type" value="Customer">
+      <input type="radio" name="customer_type" value="Customer">
       
       <label for="customer">Business</label>
-      <input type="radio" id="business" name="customer_type" value="Business"><br>
+      <input type="radio" name="customer_type" value="Business"><br>
 
       <hr>
+      <label for="name"><b>Full name/Company name</b></label><br>
+      <input type="text" placeholder="Enter your full name/company name" name="name" required><br><br>
+
+      <label for="address"><b>Address</b></label><br>
+      <input type="text" placeholder="Enter your address" name="address" required><br><br>
+
+      <label for="phnumber"><b>Phone number</b></label><br>
+      <input type="number" placeholder="Enter your phone number" name="ph-number" required><br><br>
+
       <label for="email"><b>Email</b></label><br>
       <input type="text" placeholder="Enter Email" name="email" required><br><br>   
   
@@ -40,7 +45,7 @@
     </center>
 
 <!--Skal kunne gemme inputtet -->
-<!--Tjekke om felterne bliver udfyldt? I hvert fald for det som ikke må være NULL -->
+
 
 
 @code {

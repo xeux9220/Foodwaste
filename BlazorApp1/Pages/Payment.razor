@@ -1,5 +1,5 @@
 ﻿@page "/payment"
-@inject NavigationManager NavManager
+@inject NavigationManager NavigationManager
 
 <link href="StyleSheet.css" rel="Payment.css" />
 
@@ -75,7 +75,7 @@
 @code {
     private void NavToCounter()
     {
-        NavManager.NavigateTo("counter");
+        NavigationManager.NavigateTo("Counter");
     }
 
     }

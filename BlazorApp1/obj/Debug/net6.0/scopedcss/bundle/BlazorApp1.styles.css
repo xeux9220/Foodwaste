@@ -97,6 +97,113 @@ html[b-yhn00id1ct], body[b-yhn00id1ct] {
             opacity: 1;
             right: 0;
         }
+/* _content/BlazorApp1/Pages/Modal.razor.rz.scp.css */
+body[b-cfmg0g23to] {
+    font-family: Arial, sans-serif;
+    background-size: cover;
+    height: 100vh;
+}
+
+h1[b-cfmg0g23to] {
+    text-align: center;
+    font-family: Tahoma, Arial, sans-serif;
+    color: #06D85F;
+    margin: 80px 0;
+}
+
+.box[b-cfmg0g23to] {
+    width: 40%;
+    margin: 0 auto;
+    background: rgba(255,255,255,0.2);
+    padding: 35px;
+    border: none;
+    border-radius: 10px;
+    background-clip: padding-box;
+    text-align: center;
+
+    background-color: red;
+}
+
+.button[b-cfmg0g23to] {
+    font-size: 1em;
+    padding: 10px;
+    color: black;
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.5s;
+    background-color: #CAD8F3;
+    box-shadow: 4px 4px gray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+    .button:hover[b-cfmg0g23to] {
+        background: white;
+    }
+
+.overlay[b-cfmg0g23to] {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+}
+
+    .overlay:target[b-cfmg0g23to] {
+        visibility: visible;
+        opacity: 1;
+    }
+
+.popup[b-cfmg0g23to] {
+    margin: 70px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    width: 30%;
+    position: relative;
+    transition: all 5s ease-in-out;
+}
+
+    .popup h2[b-cfmg0g23to] {
+        margin-top: 0;
+        color: #333;
+        font-family: Tahoma, Arial, sans-serif;
+    }
+
+    .popup .close[b-cfmg0g23to] {
+        position: absolute;
+        top: 20px;
+        right: 30px;
+        transition: all 200ms;
+        font-size: 30px;S
+        font-weight: bold;
+        text-decoration: none;
+        color: #333;
+    }
+
+        .popup .close:hover[b-cfmg0g23to] {
+            color: #06D85F;
+        }
+
+    .popup .content[b-cfmg0g23to] {
+        max-height: 30%;
+        overflow: auto;
+    }
+
+@media screen and (max-width: 700px) {
+    .box[b-cfmg0g23to] {
+        width: 70%;
+    }
+
+    .popup[b-cfmg0g23to] {
+        width: 70%;
+    }
+}
 /* _content/BlazorApp1/Pages/Payment.razor.rz.scp.css */
 .body[b-3i5e358ze9] {
     font-family: 'poppins', sans-serif;

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\coolk\\Source\\Repos\\Foodwaste\\BlazorApp1\\BlazorApp1.csproj",
+      "projectUniqueName": "C:\\Users\\coolk\\Source\\Repos\\xeux9220\\Foodwaste\\BlazorApp1\\BlazorApp1.csproj",
       "projectName": "BlazorApp1",
-      "projectPath": "C:\\Users\\coolk\\Source\\Repos\\Foodwaste\\BlazorApp1\\BlazorApp1.csproj",
+      "projectPath": "C:\\Users\\coolk\\Source\\Repos\\xeux9220\\Foodwaste\\BlazorApp1\\BlazorApp1.csproj",
       "packagesPath": "C:\\Users\\coolk\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\coolk\\Source\\Repos\\Foodwaste\\BlazorApp1\\obj\\",
+      "outputPath": "C:\\Users\\coolk\\Source\\Repos\\xeux9220\\Foodwaste\\BlazorApp1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\coolk\\AppData\\Roaming\\NuGet\\NuGet.Config",

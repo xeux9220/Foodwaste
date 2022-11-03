@@ -1,0 +1,51 @@
+﻿body {
+    font-family: Lato;
+    background-color: #fff2e2;
+}
+
+.logoRight {
+    float: right;
+    outline: none;
+    max-width: 10%;
+    max-height: 10%;
+}
+
+/*Table Design*/
+.tableform {
+    width: 100%;
+    background-color: #fff;
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: 8px;
+    margin-top: 50px;
+}
+
+td {
+    border: solid 1px #000;
+    border-style: none solid solid none;
+    padding: 10px;
+}
+
+tr:first-child td:first-child {
+    border-top-left-radius: 8px;
+}
+
+tr:first-child td:last-child {
+    border-top-right-radius: 8px;
+}
+
+tr:last-child td:first-child {
+    border-bottom-left-radius: 8px;
+}
+
+tr:last-child td:last-child {
+    border-bottom-right-radius: 8px;
+}
+
+tr:first-child td {
+    border-top-style: solid;
+}
+
+tr td:first-child {
+    border-left-style: solid;
+}

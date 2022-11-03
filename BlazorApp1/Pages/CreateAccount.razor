@@ -1,0 +1,54 @@
+﻿@page "/createaccount"
+@layout NoMenuLayout
+<PageTitle>Create Account</PageTitle>
+
+
+
+<!--Business ≠ Customer -->
+<body>
+<a href="#" class="previous">&#8249;</a> <!--Tilbageknap, som bare fører tilbage til starten for nu-->
+<center>
+    <img class="logoCenter" src="images/logo-placeholder.jpg" /><br>
+    <hr>
+
+    <div class="sign-up-form">
+    <form>
+      <label for="customer">Customer</label>
+      <input type="radio" name="customer_type" value="Customer">
+      
+      <label for="customer">Business</label>
+      <input type="radio" name="customer_type" value="Business"><br>
+
+      <hr>
+      <label for="name"><b>Full name/Company name</b></label><br>
+      <input type="text" placeholder="Enter your full name/company name" name="name" required><br><br>
+
+      <label for="address"><b>Address</b></label><br>
+      <input type="text" placeholder="Enter your address" name="address" required><br><br>
+
+      <label for="phnumber"><b>Phone number</b></label><br>
+      <input type="number" placeholder="Enter your phone number" name="ph-number" required><br><br>
+
+      <label for="email"><b>Email</b></label><br>
+      <input type="text" placeholder="Enter Email" name="email" required><br><br>   
+  
+      <label for="psw"><b>Password</b></label><br>
+      <input type="password" placeholder="Enter Password" name="psw" required><br><br>
+
+      <label for="psw-repeat"><b>Repeat Password</b></label><br>
+      <input type="password" placeholder="Repeat Password" name="psw-repeat" required><br><br>
+      </form>
+
+    <div>
+            <button class="sign-button" type="submit">Sign Up</button>
+    </div>
+        </div>
+    </center>
+</body>
+<!--Skal kunne gemme inputtet -->
+
+
+
+@code {
+
+}
